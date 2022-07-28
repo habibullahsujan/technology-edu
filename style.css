@@ -20,8 +20,21 @@ footer{
 }
 .img-fixed{
     
-height:500px;
- width:500px;
+    height:500px;
+    width:500px;
     
 }
+.course-amount{
+    color:#289BDE
+}
+@media only screen and (min-width:669px) and (max-width:992px){
+    .course-banner-img{
+        height:200px;
+        width:200px;
+    }
+
+}
+
+
+
 
