@@ -14,8 +14,6 @@
         <nav class="navbar navbar-expand-lg bg-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">Technical Edu</a>
-            <button class="btn btn-outline-primary text-primary d-none d-md-block">Register
-            </button>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -40,9 +38,15 @@
 
                 </li>
               </ul>
+              <div>
+                <button class="btn btn-outline-primary text-primary d-sm-none d-lg-block d-none d-md-block">Register
+                </button>
+  
+              </div>
               
               
             </div>
+            
             
           </div>
         </nav>
@@ -52,7 +56,104 @@
 
       </section>
     </header>
+    <main>
+      <section class="container mt-5 py-5">
+          <div class="text-center">
+          <h1>Discover Our Popular Courses</h1>
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+              
+          </div>
+          
+          <div class="row g-5 my-5">
+              <div class="col-12 col-md-12 col-lg-6 d-md-flex col-sm-12 align-items-center border border-light shadow-sm">
+                
+                  <img class="img-fluid w-100" src="all-images/course/course-1.png">
+                  <div class="ps-0 ps-md-3">
+                      <h4>Fundamental Of UI/UX Design</h4>
+                      <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+                      <h5>Price: $20</h5>
+                  </div>
 
+              </div>
+              <div class="col-12 col-lg-6 col-md-12 d-md-flex align-items-center border border-light shadow-sm">
+                  <img class="img-fluid w-100" src="all-images/course/course-2.png">
+                  <div class="ps-0 ps-md-3">
+                      <h4>Javascript Basic to advanced</h4>
+                      <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+                      <h5>Price: $20</h5>
+                  </div>
+
+              </div>
+              <div class="col-12 col-lg-6 col-md-12 d-md-flex align-items-center border border-light shadow-sm">
+                  <img class="img-fluid w-100" src="all-images/course/course-3.png">
+                  <div class="ps-0 ps-md-3">
+                      <h4>Fullstack Web Development</h4>
+                      <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+                      <h5>Price: $20</h5>
+                  </div>
+
+              </div>
+              <div class="col-12 col-lg-6 col-md-12 d-flex  d-sm-none d-none d-md-none d-lg-flex align-items-center border border-light shadow-sm">
+                  <img class="img-fluid w-100" src="all-images/course/course-4.png">
+                  <div class="ps-0 ps-md-3">
+                      <h4>Digital Marketing</h4>
+                      <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+                      <h5>Price: $20</h5>
+                  </div>
+
+              </div>
+              <div class="col-12 col-lg-6 col-md-12 d-flex d-none d-md-none d-lg-inline d-lg-flex align-items-center border border-light shadow-sm">
+                  <img class="img-fluid w-100" src="all-images/course/course-5.png">
+                  <div class="ps-0 ps-md-3">
+                      <h4>Photography Basic Rules</h4>
+                      <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+                      <h5>Price: $20</h5>
+                  </div>
+
+              </div>
+              <div class="col-12 col-lg-6 col-md-12 d-flex d-none d-md-none d-lg-inline d-lg-flex align-items-center border border-light shadow-sm">
+                  <img class="img-fluid w-100" src="all-images/course/course-6.png">
+                  <div class="ps-0 ps-md-3">
+                      <h4>Motion Graphics</h4>
+                      <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+                      <h5>Price: $20</h5>
+                  </div>
+
+              </div>
+              
+
+
+          </div>
+          <div class="d-flex justify-content-center">
+              <a class="btn btn-primary" href="#">See More Courses</a>
+          </div>
+
+      </section>
+      
+
+  </main>
+  <footer class="d-flex flex-column text-center justify-content-center align-items-center">
+      <div class="text-white">
+          <h1>Technical Education</h1>
+          <address>Office: 36 Purana palton, Sultan Ahmed Plaza, Dhaka-1000</address>
+          <a class="text-decoration-none" href="#">Privecy Policy</a>|<a class="text-decoration-none" href="#">Terms ans conditionn</a>
+      </div>
+      <div class="text-center text-black py-2">
+          <a class="px-2" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+          <a class="px-2" href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+          <a class="px-2" href="https://www.linkedid.com"><i class="fa-brands fa-linkedin"></i></a>
+          <a class="px-2" href="https://www.tiktok.com"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script>
+     const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
+      </script>
   </body>
 </html>
