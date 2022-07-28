@@ -15,13 +15,6 @@ footer{
 .overlay{
     filter:brightness(50%);
 }
-
-
-  @media only screen and (max-width: 675px) {
-    .carousel-caption{
-        width: 100%;
-        height: 100%; 
-        text-align: center;
-    }
-    
+.icon-color{
+    color: #777777;
 }
