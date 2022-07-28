@@ -1,0 +1,27 @@
+.card-backgound{
+    background-color: #F4FAFD;
+}
+
+.join-section{
+    padding-right:500px;
+}
+.skill{
+    color: #777777;
+}
+footer{
+    height: 472px;
+    background-color: #161616;
+}
+.overlay{
+    filter:brightness(50%);
+}
+
+
+  @media only screen and (max-width: 675px) {
+    .carousel-caption{
+        width: 100%;
+        height: 100%; 
+        text-align: center;
+    }
+    
+}
